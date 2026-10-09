@@ -1,10 +1,9 @@
 class Onnxruntime < Formula
   desc "Cross-platform, high performance scoring engine for ML models"
   homepage "https://github.com/microsoft/onnxruntime"
-  url "https://github.com/microsoft/onnxruntime/archive/refs/tags/v1.30.0.tar.gz"
-  sha256 "f6681ecbddf53898adf0cc9e8e9e84657485b84d2eca3c8aa353de6d7dd417ef"
+  url "https://github.com/microsoft/onnxruntime/archive/refs/tags/v1.31.0.tar.gz"
+  sha256 "a7e84230b5d509e48fbd6b73c2453a56345ccb22da34a46dac1f0cb4a2d6507b"
   license "MIT"
-  revision 1
   compatibility_version 9
 
   livecheck do
@@ -57,8 +56,8 @@ class Onnxruntime < Formula
   end
 
   resource "coremltools" do
-    url "https://github.com/apple/coremltools/archive/refs/tags/7.1.tar.gz"
-    sha256 "d3222966982367b2be4ce62f1bd2b3dddc5a0ae018724a9acf850fbf2b0cc09a"
+    url "https://github.com/apple/coremltools/archive/refs/tags/9.0.tar.gz"
+    sha256 "0582e0307dbdccdcb4936f8b3b6880bb2e815d9a416a3e76127824bd3bec5ce6"
 
     livecheck do
       url "https://raw.githubusercontent.com/microsoft/onnxruntime/refs/tags/v#{LATEST_VERSION}/cmake/deps.txt"

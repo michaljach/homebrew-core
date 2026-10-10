@@ -4,6 +4,7 @@ class Soapyremote < Formula
   url "https://github.com/pothosware/SoapyRemote/archive/refs/tags/soapy-remote-0.5.2.tar.gz"
   sha256 "66a372d85c984e7279b4fdc0a7f5b0d7ba340e390bc4b8bd626a6523cd3c3c76"
   license "BSL-1.0"
+  revision 1
 
   bottle do
     sha256 cellar: :any,                 arm64_golden_gate: "4341abfb05ce547941f94f8a5e5b9253d3c55e5ecaaafd2707a3e076e61e9d25"
